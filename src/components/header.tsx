@@ -17,7 +17,7 @@ export function Header(this: any) {
                             <a className="font-semibold hover:text-gray-500" href="#">INÍCIO</a>
                         </li>
                         <li>
-                            <a className="font-semibold hover:text-gray-500" href="#">PROJETOS</a>
+                            <a className="font-semibold hover:text-gray-500" href="#projects">PROJETOS</a>
                         </li>
                         <li>
                             <a className="font-semibold hover:text-gray-500" href="#">SOBRE MIM</a>
