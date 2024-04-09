@@ -31,15 +31,15 @@ export function Projects() {
         ]
     };
     return (
-        <div className="text-center mt-20" id="projects">
+        <div className="text-center mt-60" id="projects">
             <h1 className="font-bold text-xl">MEUS PROJETOS</h1>
-            <div className="w-auto m-[4%]">
+            <div className="w-auto mt-4">
                 <Slider {...settings}>
                     {data.map((d) => (
-                        <div className="h-[450px] border-solid bg-white border-2 border-black rounded-xl">
+                        <div className="h-[400px] border-solid bg-white border-2 border-black rounded-xl">
                             <div className="flex flex-col justify-center items-center gap-24 text-center p-10">
                                 <p className="font-bold text-lg">{d.title.toLocaleUpperCase()}</p>
-                                <p>{d.description}!</p>
+                                <p className="font-semibold">{d.description}!</p>
                                 <button className="bg-black text-white px-12 py-4 rounded-2xl font-bold  hover:bg-black/80">VER MAIS</button>
                             </div>
                         </div>
